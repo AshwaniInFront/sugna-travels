@@ -48,95 +48,64 @@
 
   <body>
     <header class="bg-transparent  pt-sm-5 opacity-25">
-        <div class="container  nav-mobile  bg-header px-sm-5 pt-sm-3 pb-1">
-          <div class="row">
-            <div class="col-md-9">
-              <a class="navbar-brand" href="#">
-                <img src="images/logo.png" class="img-fluid" />
-              </a>
-            </div>
-            <div class="col-md-3 fs-14 d-flex justify-content-between flex-wrap">
-              <a href="#">sugnadesertsafari99@gmail.com</a>
-              <p>6378589299/9784965565</p>
-            </div>
+      <div class="container  nav-mobile  bg-header px-sm-5 pt-sm-3 pb-1">
+        <div class="row">
+          <div class="col-md-9">
+            <a class="navbar-brand" href="#">
+              <img src="images/logo.png" class="img-fluid" />
+            </a>
           </div>
+          <div class="col-md-3 fs-14 d-flex justify-content-between flex-wrap">
+            <ul class="header-list-2 d-inline-flex justify-content-end flex-wrap w-100 pl-0">
+              <li class="header-list-item list-unstyled">
+                <a href="#" class="header-list-link">
+                  <img src="images/Home/icons/whatsapp.png" class="img-fluid">
+                </a>
+              </li>
+              <li class="header-list-item list-unstyled pl-4">
+                <a href="#" class="header-list-link"><img src="images/Home/icons/instagram.png" class="img-fluid"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
           <nav class="navbar  navbar-light nav-mobile  navbar-expand-lg">
-            <button
-              class="navbar-toggler btn-mobile"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-  
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="why-jaisalmer.html">Why jaisalmer</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="why-packages.html">packages</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="events.html">Events&Tour</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="gallery.html">gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">contact</a>
-                </li>
-              </ul>
-            </div>
+              <button class="navbar-toggler btn-mobile" type="button" data-toggle="collapse"
+                  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mx-auto">
+                      <li class="nav-item active">
+                          <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="why-jaisalmer.html">Why jaisalmer</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="adventure.html">Adventures</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="packages.html">packages</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="events.html">Events&Tour</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="gallery.html">gallery</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="contact.html">contact</a>
+                      </li>
+                  </ul>
+              </div>
           </nav>
-        </div>
-        <div class="hero-slider  w-100">
-          <div class="owl-carousel owl-theme" id="header-carousel">
-            <div class="item">
-              <div class="hero-section-slider">
-                <div class="hero-image">
-                  <img src="images/Home/bg-8.jpg" />
-                </div>
-                <div class="hero-content">
-                  <h5 class="text-capitalize font-weight-bold color-secondary">sugna desert safari</h5>
-                  <h3>Feel and enjoy the sand dunes and desert</h3>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="hero-section-slider">
-                <div class="hero-image">
-                  <img src="images/Home/bg-11.jpg" />
-                </div>
-                <div class="hero-content">
-                  <h3>Feel and enjoy the sand dunes and desert</h3>
-                </div>
-              </div>
-            </div>
-  
-            <div class="item">
-              <div class="hero-section-slider">
-                <div class="hero-image">
-                  <img src="images/Home/bg-2.jpg" />
-                </div>
-                <div class="hero-content">
-                  <h5 class="text-capitalize font-weight-bold color-secondary">sugna desert safari</h5>
-                  <h3>Feel and enjoy the sand dunes and desert</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
+      </div>
+      <div class="page-header-bg why-jaisalmer-bg">
+          <h3 class="text-white">Home&nbsp;/&nbsp;why jaisalmer</h3>
+      </div>
+  </header>
 
     <section class="why-jaisalmer-showcase">
       <div class="container-fluid px-0">
@@ -516,36 +485,6 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-    <script>
-      $("#header-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        items: 1,
-        autoplay: true,
-        autoplayTimeout: 2500,
-        smartSpeed: 1000,
-        animateOut: "fadeOut",
-        animateIn: "fadeIn",
-      });
-
-      $("#travel-packages-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        dots: false,
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 2,
-          },
-          1000: {
-            items: 3,
-          },
-        },
-      });
-    </script>
+    
   </body>
 </html>
