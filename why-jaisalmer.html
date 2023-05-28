@@ -34,6 +34,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,11 +59,11 @@
   </head>
 
   <body>
-    <header class="bg-transparent  pt-sm-5 opacity-25">
-      <div class="container  nav-mobile  bg-header px-sm-5 pt-sm-3 pb-1">
+    <header class="bg-transparent pt-sm-5 opacity-25">
+      <div class="container nav-mobile bg-header px-sm-5 pt-sm-3 pb-1">
         <div class="row">
           <div class="col-md-9">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
               <img src="images/logo.png" class="img-fluid" />
             </a>
           </div>
@@ -68,52 +80,58 @@
             </ul>
           </div>
         </div>
-          <nav class="navbar  navbar-light nav-mobile  navbar-expand-lg">
-              <button class="navbar-toggler btn-mobile" type="button" data-toggle="collapse"
-                  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                  aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
+        <nav class="navbar navbar-light nav-mobile navbar-expand-lg">
+          <button
+            class="navbar-toggler btn-mobile"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mx-auto">
-                      <li class="nav-item active">
-                          <a class="nav-link" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="why-jaisalmer.html">Why jaisalmer</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="adventure.html">Adventures</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="packages.html">packages</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="events.html">Events&Tour</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="gallery.html">gallery</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="contact.html">contact</a>
-                      </li>
-                  </ul>
-              </div>
-          </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="why-jaisalmer.html">Why jaisalmer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="adventure.html">Adventures</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="packages.html">packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="events.html">Events&Tour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-      <div class="page-header-bg why-jaisalmer-bg">
-          <h3 class="text-white">Home&nbsp;/&nbsp;why jaisalmer</h3>
+      <div class="page-header-bg events-bg">
+        <h3>Home&nbsp;/&nbsp;why-jaisalmer</h3>
       </div>
-  </header>
+    </header>
 
-    <section class="why-jaisalmer-showcase">
+    <section class="why-jaisalmer-showcase events-tour">
       <div class="container-fluid px-0">
-        <div class="why-jaisalmer-block why-jaisalmer-bg-1">
+        <div class="">
           <div class="row mx-0">
             <div class="col-md-6 px-0">
               <div
-                class="why-jaisalmer-info d-flex flex-wrap flex-column align-items-start justify-content-center bg-fixed-1"
+                class="why-jaisalmer-info  d-flex flex-wrap flex-column align-items-start justify-content-center"
               >
                 <h2 class="text-uppercase font-weight-bold">Gadisagar lake</h2>
                 <p>
@@ -147,7 +165,9 @@
                 </ul>
               </div>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6 px-0 ">
+            
+            </div>
           </div>
         </div>
         <div class="why-jaisalmer-block why-jaisalmer-bg-2">
@@ -408,83 +428,100 @@
                   and had been the scene of many battles.
                 </p>
                 <ul class="jaisalmer-locations-info pl-0 mt-4">
-                    <li
-                      class="jaisalmer-locations-info-list list-unstyled font-weight-bold"
-                    >
-                      <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                      <span>Visiting Time: 9am –6pm</span>
-                    </li>
-                    <li
-                      class="jaisalmer-locations-info-list list-unstyled font-weight-bold"
-                    >
-                      <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                      <span>Visiting Days: Everyday</span>
-                    </li>
-                  </ul>
+                  <li
+                    class="jaisalmer-locations-info-list list-unstyled font-weight-bold"
+                  >
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    <span>Visiting Time: 9am –6pm</span>
+                  </li>
+                  <li
+                    class="jaisalmer-locations-info-list list-unstyled font-weight-bold"
+                  >
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    <span>Visiting Days: Everyday</span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
     <footer class="section-padding mt-5">
-        <div class="container">
-          <div class="row d-flex ">
-            <div class="col-md-8">
-             <h2> BOOK YOUR JAISALMER TRIP NOW </h2>
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-md-8">
+            <h2>BOOK YOUR JAISALMER TRIP NOW</h2>
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-warning text-uppercase">
+              <a href="#" class="text-dark font-weight-bold">book now</a>
+            </button>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-5">
+            <div class="footer-logo">
+              <img src="images/logo.png" alt="footer-logo" />
             </div>
-            <div class="col-md-4 ">
-              <button class="btn btn-warning text-uppercase">
-                <a href="#" class="text-dark font-weight-bold">book now</a>
-              </button>
-            </div>
-            <div class="col-md-6 col-lg-4 mt-5">
-              <div class="footer-logo">
-                <img src="images/logo.png" alt="footer-logo">
-              </div>
-              <div class="footer-block-1">
-                <h4 class="text-white mb-1">Need information</h4>
-                <p class="text-white">Near Sam Parking, Lakhmara Road, Kanoi, Jaisalmer, Rajasthan (345001)</p>
-              </div>
-            </div>
-            <div class="col-md-4 mt-5">
-              <ul class="footer-list">
-                <li class="footer-list-item list-style-none">
-                  <a href="#" class="footer-list-link">Why jaisalmer</a>
-                </li>
-                <li class="footer-list-item list-style-none">
-                  <a href="#" class="footer-list-link">packages</a>
-                </li>
-                <li class="footer-list-item list-style-none">
-                  <a href="#" class="footer-list-link">events and tour</a>
-                </li>
-                <li class="footer-list-item list-style-none">
-                  <a href="#" class="footer-list-link">gallery</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4 mt-5">
-              <ul class="footer-list-2 d-inline-flex flex-wrap w-100 pl-0">
-                <li class="footer-list-item list-unstyled">
-                  <a href="#" class="footer-list-link">
-                    <img src="images/Home/whatsapp.png" class="img-fluid">
-                  </a>
-                </li>
-                <li class="footer-list-item list-unstyled pl-4">
-                  <a href="#" class="footer-list-link"><img src="images/Home/instagram.png" class="img-fluid"></a>
-                </li>
-              </ul>
+            <div class="footer-block-1">
+              <h4 class="text-white mb-1">Sugna desert safari</h4>
+              <p class="text-white">
+                Address: Near Sam Parking, Lakhmara Road, Kanoi, Jaisalmer,
+                Rajasthan (345001)
+              </p>
             </div>
           </div>
+          <div class="col-md-4 mt-5">
+            <ul class="footer-list">
+              <li class="footer-list-item mt-4 list-style-none">
+                <a href="#" class="footer-list-link">Why jaisalmer</a>
+              </li>
+              <li class="footer-list-item mt-4 list-style-none">
+                <a href="#" class="footer-list-link">packages</a>
+              </li>
+              <li class="footer-list-item mt-4 list-style-none">
+                <a href="#" class="footer-list-link">events and tour</a>
+              </li>
+              <li class="footer-list-item mt-4 list-style-none">
+                <a href="#" class="footer-list-link">gallery</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </footer>
+      </div>
+    </footer>
+
+    <div class="social-connect">
+      <ul class="footer-list-2 w-100 pl-0">
+        <li class="footer-list-item list-unstyled">
+          <a
+            href="https://wa.me/918233533362/?text=Hi sugna desert safari, Whatsup"
+            class="footer-list-link"
+          >
+            <img src="images/Home/icons/whatsapp.png" class="img-fluid"
+          /></a>
+        </li>
+        <li class="footer-list-item list-unstyled mt-3">
+          <a href="#" class="footer-list-link"
+            ><img src="images/Home/icons/instagram.png" class="img-fluid"
+          /></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="call-sugna-desert-safari">
+      <div class="reservation">
+        <a href="tel:+918290187993">
+          <div class="icon d-flex justify-content-center align-items-center">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </div>
+          <div class="call"><span>+918290187993</span> <br />Reservation</div>
+        </a>
+      </div>
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-    
   </body>
 </html>

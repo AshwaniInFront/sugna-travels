@@ -90,11 +90,11 @@ header .container {
 header:before {
   content: "Sugna desert safari";
   position: absolute;
-  top: 40%;
-  left: 33%;
-  font-size: 70px;
+  top: 35%;
+  left: 25%;
+  font-size: 100px;
   font-weight: 600;
-  opacity: 0.75;
+  opacity: 0.45;
   font-family: "Oswald", sans-serif;
   z-index: 11;
   color: #fff;
@@ -2174,7 +2174,7 @@ section.best-camp .item .overlay {
   background: linear-gradient(0deg, #020024 0%, #000032a1 3%, #17d9ff00 100%);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: flex-start;
 }
 
@@ -2185,6 +2185,9 @@ section.best-camp .item .overlay span {
   border-radius: 60px;
   padding: 10px 20px;
   display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
 }
 
 section.best-camp .item .overlay > div h2 {
@@ -2233,9 +2236,31 @@ section.best-camp .owl-nav button {
 
 /**activity-images*/
 
-.outdoor-activites-block a {
+
+
+.outdoor-activites-block a:hover{
+  color: var(--white);
+  text-decoration: none;
+}  
+
+.outdoor-activites-block {
   overflow: hidden;
+
 }
+
+
+.outdoor-activites-block  .outdoor-activites-img{
+  -webkit-transition: 0.2s all ease-in;
+  -moz-transition: 0.2s all ease-in;
+  -o-transition: 0.2s all ease-in;
+  -ms-transition: 0.2s all ease-in;
+}
+
+.outdoor-activites-block:hover .outdoor-activites-img{
+  transform: scale(1.06);
+  opacity: 0.6;
+}
+  
 
 .outdoor-activites-img {
   position: relative;
@@ -2249,9 +2274,13 @@ section.best-camp .owl-nav button {
   justify-content: center;
   align-items: flex-end;
   padding: 30px 0;
+  -webkit-transition: 0.2 all ease-in;
+  -moz-transition: 0.2 all ease-in;
+  -o-transition: 0.2 all ease-in;
+  -ms-transition: 0.2 all ease-in;
 }
 
-.outdoor-activites-img h4 {
+.outdoor-activites-block .outdoor-activites-img h4 {
   position: absolute;
   font-family: "Pacifico", cursive;
   background: orange;
@@ -2338,6 +2367,8 @@ footer {
   background-size: cover;
   background-attachment: fixed;
   background-position: right;
+  height: 100%;
+  min-height: 400px;
 }
 
 .why-jaisalmer-bg-1 {
