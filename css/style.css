@@ -2236,8 +2236,6 @@ section.best-camp .owl-nav button {
 
 /**activity-images*/
 
-
-
 .outdoor-activites-block a:hover{
   color: var(--white);
   text-decoration: none;
@@ -2247,7 +2245,6 @@ section.best-camp .owl-nav button {
   overflow: hidden;
 
 }
-
 
 .outdoor-activites-block  .outdoor-activites-img{
   -webkit-transition: 0.2s all ease-in;
@@ -2261,7 +2258,6 @@ section.best-camp .owl-nav button {
   opacity: 0.6;
 }
   
-
 .outdoor-activites-img {
   position: relative;
   background-size: 300px;
@@ -2360,7 +2356,7 @@ footer {
 
 .why-jaisalmer-info p {
   margin-bottom: 0;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .why-jaisalmer-block {
@@ -2403,11 +2399,41 @@ footer {
   background-image: url("../images/WhyJaisalmer/jaisalmer-fort.jpg");
 }
 
+
+.events-bg{
+  background-image: url("../images/WhyJaisalmer/jaisalmer-bg.jpg");
+}
+
+.events-bg-1{
+  background-image: url("../images/events/Jaisalmer-Honeymoon-Tour.jpg");
+  background-position: 500px 700px;
+}
+
+.events-bg-2{
+  background-image: url("../images/Home/education-tour.jpg");
+  background-position: right;
+}
+
+.events-bg-3{
+  background-image: url(../images/events/pre-wedding.jpg);
+  background-position: 500px 1300px;
+}
+
+.events-bg-4{
+  background-image: url(../images/Home/adshoot-jaisalmer.jpeg);
+  background-position: -700px -150px;
+  background-repeat:no-repeat;
+}
+
+.events-bg-5{
+  background-image: url(../images/events/Jaisalmer-birthday.jpg);
+  background-repeat:no-repeat;
+}
+
 .social-connect {
   position: fixed;
   bottom: 50px;
   right: 50px;
- 
 }
 
 .amenties-block {
@@ -2508,8 +2534,8 @@ footer {
   background-image: url("../images/adventures/quad-biking.jpg");
 }
 
-.events-bg{
-  background-image: url("../images/events/events-bg.jpg");
+.contact-bg{
+  background-image: url('../images/Home/contact-bg.jpg');
 }
 
 .gallery-bg{
@@ -2682,11 +2708,19 @@ textarea.inptFld{
   max-width: 200px;
 }
 
+
+
 /* Responsive css Start */
 
 /*media-query-css*/
 
 @media (max-width: 991px) {
+
+  
+  .hero-section-slider{
+    align-items: flex-end;
+  }
+
   .sec-pad {
     padding: 20px 0 0px;
   }
@@ -2708,6 +2742,11 @@ textarea.inptFld{
     padding: 0 14px;
     font-size: 14px;
   }
+
+  .call-sugna-desert-safari .reservation{
+    display: none;
+  }
+
 }
 
 
@@ -2721,8 +2760,8 @@ textarea.inptFld{
   }
 
   .btn-mobile {
-    top: 20px;
-    right: 20px;
+    top: 5px;
+    right: 170px;
     position: fixed;
   }
 
@@ -2734,9 +2773,28 @@ textarea.inptFld{
     background-color: rgba(255, 255, 255, 1);
   }
 
+  header:before{
+    top: 40%;
+    left: 0%;
+    font-size: 50px;
+    padding: 0 33px;
+    text-align: center;
+  }
+
+  .page-header-bg{
+    padding-bottom: 3px;
+    padding-left: 20px;
+    margin-top: 50px;
+    min-height: 350px;
+  }
+
+  .page-header-bg h3{
+    font-size: 16px;
+  }
+
   .navbar-collapse {
     background-color: rgba(255, 255, 255, 1);
-    margin-top: 80px;
+    margin-top: 42px;
   }
 
   .hero-content {
@@ -2788,11 +2846,36 @@ textarea.inptFld{
     border-radius: 50%;
     margin: 0px 5px 20px;
   }
+
+  /**why-jaisalmer-css*/
+
+  .why-jaisalmer-block{
+    min-height: 250px;
+  }
+
+  .why-jaisalmer-info{
+    padding: 0 20px;
+    min-height: 350px;
+  }
+
+  .why-jaisalmer-info h2{
+    font-size: 24px;
+  }
+
+  .why-jaisalmer-info p{
+    font-size: 14px;
+  }
+    
 }
 
 
 
 @media (max-width: 575px) {
+
+  .header-list-2 .header-list-link img{
+    max-width: 24px;
+  }
+
   .section-title {
     font-size: 26px;
     font-weight: 500;
