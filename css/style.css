@@ -2404,6 +2404,7 @@ footer {
   background-image: url("../images/WhyJaisalmer/jaisalmer-bg.jpg");
 }
 
+
 .events-bg-1{
   background-image: url("../images/events/Jaisalmer-Honeymoon-Tour.jpg");
   background-position: 500px 700px;
@@ -2573,7 +2574,65 @@ footer {
   min-height: 450px;
 }
 
-/** gallery-css*/
+/** packages-bg */
+
+.package-header-bg{
+  position: relative;
+  background-size: cover;
+  min-height: 550px;
+  background-position: center;
+  margin-top: -203px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 100px;
+  padding-left: 190px;
+}
+
+.package-bg{
+  background-image: url('../images/About/Camp_3.jpg');
+}
+
+.package-header-bg h3{
+  z-index: 1;
+  color: var(--white);
+}
+
+.packages-list .packages-list-item{
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.section-padding.packages .owl-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-padding.packages .owl-prev {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  background-color: var(--tertiary-color) !important;
+}
+
+.section-padding.packages .owl-next {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  background-color: var(--tertiary-color) !important;
+}
+
+.section-padding.packages .owl-nav span {
+  font-size: 30px;
+  padding: 0 20px;
+}
+
+ul.packages-list {
+  overflow-y: scroll;
+  max-height: 363px;
+}
+
+/** gallery-css */
 
 
 .gallery-block img{
@@ -2774,7 +2833,7 @@ textarea.inptFld{
   }
 
   header:before{
-    top: 40%;
+    top: 15%;
     left: 0%;
     font-size: 50px;
     padding: 0 33px;
@@ -2785,7 +2844,7 @@ textarea.inptFld{
     padding-bottom: 3px;
     padding-left: 20px;
     margin-top: 50px;
-    min-height: 350px;
+    min-height: 250px;
   }
 
   .page-header-bg h3{
@@ -2864,6 +2923,14 @@ textarea.inptFld{
 
   .why-jaisalmer-info p{
     font-size: 14px;
+  }
+
+  /**packaage-css*/
+
+  .package-header-bg{
+    padding-left: 65px;
+    margin-top: 40px;
+    min-height: 250px;
   }
     
 }
