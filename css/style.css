@@ -90,15 +90,20 @@ header .container {
 header:before {
   content: "Sugna desert safari";
   position: absolute;
-  top: 35%;
-  left: 25%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 100px;
   font-weight: 600;
   opacity: 0.45;
   font-family: "Oswald", sans-serif;
   z-index: 11;
   color: #fff;
-
+  background-color: rgba(0, 0, 0, 0.35);
   text-transform: capitalize;
 }
 
@@ -125,6 +130,11 @@ li.nav-item:first-child {
   margin-left: 0;
 }
 
+a.dropdown-item{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
 .hero-section-slider {
   position: relative;
   display: flex;
@@ -138,6 +148,7 @@ li.nav-item:first-child {
   color: var(--white);
   z-index: 1;
   padding: 10px 20px;
+  margin-top: 80px;
 }
 
 .section-padding {
@@ -2466,7 +2477,7 @@ footer {
   top: 0;
   left: 40px;
   height: 50%;
-  z-index: 9;
+  z-index: 11;
 }
 
 .call-sugna-desert-safari .reservation a {
@@ -2593,7 +2604,7 @@ footer {
 }
 
 .package-header-bg h3{
-  z-index: 1;
+  z-index: 11;
   color: var(--white);
 }
 
@@ -2630,6 +2641,11 @@ footer {
 ul.packages-list {
   overflow-y: scroll;
   max-height: 363px;
+}
+
+.package-detail-carousel img {
+  max-height: 400px;
+  object-fit: cover;
 }
 
 /** gallery-css */
@@ -2833,7 +2849,7 @@ textarea.inptFld{
   }
 
   header:before{
-    top: 15%;
+    top: 0;
     left: 0%;
     font-size: 50px;
     padding: 0 33px;
@@ -2928,9 +2944,14 @@ textarea.inptFld{
   /**packaage-css*/
 
   .package-header-bg{
-    padding-left: 65px;
-    margin-top: 40px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    margin-top: 50px;
     min-height: 250px;
+  }
+
+  .package-header-bg h3{
+    font-size: 16px;
   }
     
 }
